@@ -1,8 +1,12 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #c7b198;
+  --secondary-color: #f0ece2;
   --heading-font-family: "Playfair Display", serif;
   --dafault-font-family: "Poppins", sans-serif;
+}
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 26px;
 }
 body {
   font-family: var(--dafault-font-family);
@@ -15,12 +19,13 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-  font-weight: bold;
+  font-weight: normal;
 }
 h1 {
-  font-size: 96px;
+  font-size: 85px;
   line-height: 1.5;
 }
+
 h2 {
   font-size: 64px;
 }
@@ -36,7 +41,6 @@ p {
 }
 .hero p {
   font-size: 36px;
-  font-weight: bold;
   margin: 0;
   color: #272142;
 }
@@ -80,4 +84,8 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+.migiya-image {
+  border-radius: 10px;
+  max-width: 500px;
 }
