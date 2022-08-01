@@ -88,6 +88,27 @@ p {
   background: var(--secondary-color);
   padding: 85px 10px;
 } */
+.about-hero h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--dafault-font-family);
+  font-weight: bold;
+}
+.hero-photo {
+  max-width: 400px;
+  border-radius: 10px;
+}
+.about-hero {
+  padding: 160px 20px;
+}
+.about-hero-content {
+  margin: 30px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
@@ -100,6 +121,10 @@ p {
     padding: 80px 20px;
   }
   .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .about-hero {
     padding: 0;
     text-align: center;
   }
@@ -131,3 +156,9 @@ p {
     text-align: center;
   }
 }
+/* .migiya-image:hover {
+  max-width: 600px;
+}
+.weather-image:hover {
+  max-width: 600px;
+} */
