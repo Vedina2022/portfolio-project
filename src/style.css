@@ -101,7 +101,21 @@ p {
   max-width: 350px;
   border-radius: 10px;
 }
-
+.fa-brands {
+  font-size: 30px;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  background: var(--secondary-color);
+  color: var(--branding-color);
+}
+.fa-brands:hover {
+  background: var(--branding-color);
+  color: var(--secondary-color);
+}
+.email {
+  color: var(--branding-color);
+}
 /* .image-frame {
   border-radius: 4px;
   background: var(--secondary-color);
