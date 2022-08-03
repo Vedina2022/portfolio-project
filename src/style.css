@@ -4,14 +4,18 @@
   --heading-font-family: "Playfair Display", serif;
   --dafault-font-family: "Poppins", sans-serif;
 }
+
+body {
+  font-family: var(--dafault-font-family);
+}
 .navbar-brand {
   font-family: "Dancing Script", cursive;
   font-size: 26px;
 }
-body {
-  font-family: var(--dafault-font-family);
+nav a:hover,
+nav li .active {
+  font-weight: bold;
 }
-
 h1,
 h2,
 h3,
@@ -113,7 +117,6 @@ p {
   background: var(--branding-color);
   color: var(--secondary-color);
 }
-
 .email {
   color: var(--branding-color);
 }
