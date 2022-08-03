@@ -113,6 +113,7 @@ p {
   background: var(--branding-color);
   color: var(--secondary-color);
 }
+
 .email {
   color: var(--branding-color);
 }
