@@ -34,6 +34,9 @@ h2 {
   font-size: 64px;
 }
 h3 {
+  font-weight: bold;
+}
+h4 {
   font-size: 48px;
 }
 .look-projects {
@@ -83,7 +86,10 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 60px 20px 0 20px;
+}
+.project-image {
+  border-radius: 10px;
 }
 .content h1 {
   font-size: 42px;
@@ -141,17 +147,18 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
-.developer {
+footer .developer {
   font-size: 16px;
 }
-p .developer-link {
+footer .developer-link {
   color: var(--branding-color);
   text-decoration: none;
 }
-p .developer-link:hover {
+footer .developer-link:hover {
   text-decoration: underline;
   font-weight: bold;
 }
+
 /* .image-frame {
   border-radius: 4px;
   background: var(--secondary-color);
@@ -166,7 +173,8 @@ p .developer-link:hover {
   h2 {
     font-size: 38px;
   }
-  h3 {
+  h3,
+  h4 {
     font-size: 26px;
   }
   .project-description {
