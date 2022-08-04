@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Portfolio of Nadiia Kyshinska, Ukrainian front-end developer, based in Canada"
+    />
+    <title>Front-end developer - Nadiia Kyshinska</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -39,7 +43,9 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Nadiia Kyshinska</a>
+        <a class="navbar-brand" href="index.html" title="Homepage"
+          >Nadiia Kyshinska</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -57,18 +63,28 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                title="Homepage"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html" title="About Nadiia"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="work.html">Work</a>
+              <a class="nav-link" href="work.html" title="Nadiia's work"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact me</a>
+              <a class="nav-link" href="contact.html" title="Contact Nadiia"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
@@ -78,7 +94,11 @@
       <p>👋Hello, I am</p>
       <h1 class="mb-2">Nadiia Kyshinska</h1>
       <h2 class="mb-4 text-muted">💙💛Front-end developer, based in Canada</h2>
-      <div><a href="contact.html" class="btn btn-branding">Contact me</a></div>
+      <div>
+        <a href="contact.html" title="Contact Nadiia" class="btn btn-branding"
+          >Contact me</a
+        >
+      </div>
     </div>
     <p class="text-center m-5 text-muted look-projects">
       Take a look at some of my projects below
@@ -88,7 +108,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/migiya.png"
-            alt="migiya image"
+            alt="Landing prage preview"
             class="img-fluid d-flex justify-content-center migiya-image"
           />
         </div>
@@ -99,7 +119,9 @@
               This was my first project. A basic landing page was created, using
               HTML, CSS and JavaScript.
             </p>
-            <a href="#" class="btn btn-branding">Learn more</a>
+            <a href="work.html" class="btn btn-branding" title="Landing Page"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -114,13 +136,15 @@
               forecast for 5 days. The app can give weather updates based on
               your current location.
             </p>
-            <a href="#" class="btn btn-branding">Learn more</a>
+            <a href="work.html" class="btn btn-branding" title="Weather App"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="/images/weather.png"
-            alt="weather image"
+            alt="Weather app preview"
             class="img-fluid d-flex justify-content-center weather-image"
           />
         </div>
@@ -129,7 +153,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/dictionary.png"
-            alt="dictionary image"
+            alt="Dictionary app preview"
             class="img-fluid d-flex justify-content-center dictionary-image"
           />
         </div>
@@ -137,7 +161,9 @@
           <div class="project-description">
             <h2 class="mb-5">Dictionary App</h2>
             <p class="mb-5 text-muted">In progress...</p>
-            <a href="#" class="btn btn-branding">Learn more</a>
+            <a href="work.html" class="btn btn-branding" title="Dictionary App"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -146,15 +172,23 @@
           class="contact-box mb-5 d-flex justify-content-between d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="contact.html" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="contact.html"
+              title="Contact Nadiia"
+              class="btn btn-branding mt-3"
+              >Contact me</a
+            >
           </div>
         </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:2014vedina@gmail.com" class="email-link"
+        <div class="d-flex justify-content-center mb-4">
+          <a
+            href="mailto:2014vedina@gmail.com"
+            title="Email Nadiia"
+            class="email-link"
             >2014vedina@gmail.com</a
           >
         </div>
@@ -162,18 +196,33 @@
           <a
             href="https://www.linkedin.com/in/nadiia-kyshinska-8aa342168/"
             target="_blank"
+            title="LinkedIn profile"
           >
             <i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://github.com/Vedina2022" target="_blank"
+          <a
+            href="https://github.com/Vedina2022"
+            target="_blank"
+            title="GitHub profile"
             ><i class="fa-brands fa-github"></i>
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=100001739710726"
             target="_blank"
+            title="Facebook profile"
             ><i class="fa-brands fa-facebook"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          ✌This project was coded by Nadiia Kyshinska, and it is
+          <a
+            href="https://github.com/Vedina2022/portfolio-project"
+            target="_blank"
+            class="developer-link"
+            title="GitHub link"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
