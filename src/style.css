@@ -141,6 +141,17 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
+.developer {
+  font-size: 16px;
+}
+p .developer-link {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+p .developer-link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
 /* .image-frame {
   border-radius: 4px;
   background: var(--secondary-color);
