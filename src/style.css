@@ -116,7 +116,7 @@ p {
   color: var(--branding-color);
 }
 footer {
-  margin: 80px 0 30px 0;
+  margin: 80px 0 20px 0;
 }
 footer .contact-box {
   background: var(--secondary-color);
@@ -157,11 +157,6 @@ footer .developer-link {
 footer .developer-link:hover {
   text-decoration: underline;
   font-weight: bold;
-}
-footer .developer-container {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
 }
 
 /* .image-frame {
@@ -207,6 +202,11 @@ footer .developer-container {
     font-size: 15px;
     line-height: 1.5;
     margin: 5px;
+  }
+  footer .developer-container {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
   }
 }
 @media (max-width: 300px) {
